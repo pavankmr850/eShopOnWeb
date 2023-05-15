@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: veera
-  LOCATION: East US
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: ff3b12ea-11d6-4002-a396-8e3d15b03b75
   WEBAPP-NAME: az400-webapp-veera
